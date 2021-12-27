@@ -1,0 +1,5 @@
+docker run \
+--detach \
+--name=mysql_test\
+--publish 6603:3306 \
+mysql
